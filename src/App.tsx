@@ -20,12 +20,16 @@ function App() {
   //   started: true,
   // }
 
+  let 김이름: string | number = "kim"
+  let 김나이: string | number = 100
   return (
     <div className="App">
       {이름}
       {나이}
       {결혼했니}
       {회원들}
+      {김이름}
+      {김나이}
     </div>
   )
 }
