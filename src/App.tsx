@@ -21,6 +21,7 @@ function App() {
   // }
 
   let 김이름: string | number = "kim"
+  //스트링도 들어올수있고 넘버도 들어올수있다
   let 김나이: string | number = 100
   return (
     <div className="App">
