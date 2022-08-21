@@ -20,13 +20,20 @@ function App() {
   //   started: true,
   // }
 
+  // let 이름 :any;
+  // 이름 = 123;
+  // 이름 =[];
+  // any 타입 모든 자료형 허용해줌 타입쉴드해제
+
   let 김이름: string | number = "kim"
   //스트링도 들어올수있고 넘버도 들어올수있다
   let 김나이: string | number = 100
+  // let 회원님들: { a: string | number } = { a: 123 }
   return (
     <div className="App">
       {이름}
       {나이}
+      {/* {회원님들} */}
       {결혼했니}
       {회원들}
       {김이름}
@@ -36,4 +43,3 @@ function App() {
 }
 
 export default App
-
